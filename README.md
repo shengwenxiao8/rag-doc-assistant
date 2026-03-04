@@ -23,3 +23,17 @@ to answer questions based on your documents with source citations.
 - **Embedding:** OpenAI text-embedding-3-small
 
 ## Architecture
+
+    Document Upload → Chunking → Embedding → Vector Store (Chroma)
+                                                  ↓
+    User Question → Embedding → Similarity Search → Retrieved Chunks
+                                                  ↓
+                                  LLM (Claude) → Answer with Citations
+
+## Status
+
+🔜 Development starts in Phase 1 (W3-W6)
+
+## License
+
+MIT
