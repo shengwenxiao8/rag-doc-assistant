@@ -1,2 +1,25 @@
-# rag-doc-assistant
-An AI-powered document Q&amp;A system using RAG (Retrieval-Augmented Generation) with vector search
+# RAG Document Assistant
+
+> 🚧 Under Development
+
+An intelligent document Q&A system that uses Retrieval-Augmented Generation (RAG)
+to answer questions based on your documents with source citations.
+
+## Features (Planned)
+
+- [ ] Document upload (PDF / Markdown / Text)
+- [ ] Automatic chunking and embedding
+- [ ] Vector search with Chroma
+- [ ] AI-generated answers with source citations
+- [ ] Multi-turn conversational Q&A
+- [ ] Document management dashboard
+
+## Tech Stack
+
+- **Backend:** Python / FastAPI
+- **Vector DB:** Chroma
+- **LLM:** Claude API
+- **Frontend:** React / Next.js / TailwindCSS
+- **Embedding:** OpenAI text-embedding-3-small
+
+## Architecture
